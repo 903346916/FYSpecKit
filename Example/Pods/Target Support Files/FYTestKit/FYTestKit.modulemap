@@ -1,0 +1,6 @@
+framework module FYTestKit {
+  umbrella header "FYTestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

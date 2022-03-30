@@ -7,6 +7,8 @@
 
 import UIKit
 
-class FYTestTool: NSObject {
+public class FYTestTool: NSObject {
 
+    public var name = ""
+    var age = ""
 }

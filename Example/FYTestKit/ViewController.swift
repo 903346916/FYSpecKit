@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import FYTestKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        _ = FYTestTool().name
         // Do any additional setup after loading the view, typically from a nib.
     }
 
