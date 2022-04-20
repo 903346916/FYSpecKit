@@ -11,4 +11,9 @@ public class FYTestTool: NSObject {
 
     public var name = ""
     var age = ""
+    
+    func getTestName() -> String {
+        
+        return "You get it!";
+    }
 }
