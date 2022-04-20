@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         _ = FYTestTool().name
+        
+        _ = FYTestTool().getTestName()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
